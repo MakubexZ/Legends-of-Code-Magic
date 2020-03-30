@@ -1,0 +1,44 @@
+117 ; Protein ; itemGreen ; 1 ; 1 ; 1 ; B----- ; 0 ; 0 ; 0 ; Give a friendly creature +1/+1 and Breakthrough. 
+118 ; Royal Helm ; itemGreen ; 0 ; 0 ; 3 ; ------ ; 0 ; 0 ; 0 ; Give a friendly creature +0/+3. 
+119 ; Serrated Shield ; itemGreen ; 1 ; 1 ; 2 ; ------ ; 0 ; 0 ; 0 ; Give a friendly creature +1/+2. 
+120 ; Venomfruit ; itemGreen ; 2 ; 1 ; 0 ; ----L- ; 0 ; 0 ; 0 ; Give a friendly creature +1/+0 and Lethal. 
+121 ; Enchanted Hat ; itemGreen ; 2 ; 0 ; 3 ; ------ ; 0 ; 0 ; 1 ; Give a friendly creature +0/+3.\nDraw a card. 
+122 ; Bolstering Bread ; itemGreen ; 2 ; 1 ; 3 ; ---G-- ; 0 ; 0 ; 0 ; Give a friendly creature +1/+3 and Guard. 
+123 ; Wristguards ; itemGreen ; 2 ; 4 ; 0 ; ------ ; 0 ; 0 ; 0 ; Give a friendly creature +4/+0. 
+124 ; Blood Grapes ; itemGreen ; 3 ; 2 ; 1 ; --D--- ; 0 ; 0 ; 0 ; Give a friendly creature +2/+1 and Drain. 
+125 ; Healthy Veggies ; itemGreen ; 3 ; 1 ; 4 ; ------ ; 0 ; 0 ; 0 ; Give a friendly creature +1/+4. 
+126 ; Heavy Shield ; itemGreen ; 3 ; 2 ; 3 ; ------ ; 0 ; 0 ; 0 ; Give a friendly creature +2/+3. 
+127 ; Imperial Helm ; itemGreen ; 3 ; 0 ; 6 ; ------ ; 0 ; 0 ; 0 ; Give a friendly creature +0/+6. 
+128 ; Enchanted Cloth ; itemGreen ; 4 ; 4 ; 3 ; ------ ; 0 ; 0 ; 0 ; Give a friendly creature +4/+3. 
+129 ; Enchanted Leather ; itemGreen ; 4 ; 2 ; 5 ; ------ ; 0 ; 0 ; 0 ; Give a friendly creature +2/+5. 
+130 ; Helm of Remedy ; itemGreen ; 4 ; 0 ; 6 ; ------ ; 4 ; 0 ; 0 ; Give a friendly creature +0/+6.\nYou gain 4 health. 
+131 ; Heavy Gauntlet ; itemGreen ; 4 ; 4 ; 1 ; ------ ; 0 ; 0 ; 0 ; Give a friendly creature +4/+1. 
+132 ; High Protein ; itemGreen ; 5 ; 3 ; 3 ; B----- ; 0 ; 0 ; 0 ; Give a friendly creature +3/+3 and Breakthrough. 
+133 ; Pie of Power ; itemGreen ; 5 ; 4 ; 0 ; -----W ; 0 ; 0 ; 0 ; Give a friendly creature +4/+0 and Ward. 
+134 ; Light The Way ; itemGreen ; 4 ; 2 ; 2 ; ------ ; 0 ; 0 ; 1 ; Give a friendly creature +2/+2.\nDraw a card. 
+135 ; Imperial Armour ; itemGreen ; 6 ; 5 ; 5 ; ------ ; 0 ; 0 ; 0 ; Give a friendly creature +5/+5. 
+136 ; Buckler ; itemGreen ; 0 ; 1 ; 1 ; ------ ; 0 ; 0 ; 0 ; Give a friendly creature +1/+1. 
+137 ; Ward ; itemGreen ; 2 ; 0 ; 0 ; -----W ; 0 ; 0 ; 0 ; Give a friendly creature Ward. 
+138 ; Grow Horns ; itemGreen ; 2 ; 0 ; 0 ; ---G-- ; 0 ; 0 ; 1 ; Give a friendly creature Guard.\nDraw a card. 
+139 ; Grow Stingers ; itemGreen ; 4 ; 0 ; 0 ; ----LW ; 0 ; 0 ; 0 ; Give a friendly creature Lethal and Ward. 
+140 ; Grow Wings ; itemGreen ; 2 ; 0 ; 0 ; -C---- ; 0 ; 0 ; 0 ; Give a friendly creature Charge. 
+141 ; Throwing Knife ; itemRed ; 0 ; -1 ; -1 ; ------ ; 0 ; 0 ; 0 ; Give an enemy creature -1/-1. 
+142 ; Staff of Suppression ; itemRed ; 0 ; 0 ; 0 ; BCDGLW ; 0 ; 0 ; 0 ; Remove all abilities from an enemy creature. 
+143 ; Pierce Armour ; itemRed ; 0 ; 0 ; 0 ; ---G-- ; 0 ; 0 ; 0 ; Remove Guard from an enemy creature. 
+144 ; Rune Axe ; itemRed ; 1 ; 0 ; -2 ; ------ ; 0 ; 0 ; 0 ; Deal 2 damage to an enemy creature. 
+145 ; Cursed Sword ; itemRed ; 3 ; -2 ; -2 ; ------ ; 0 ; 0 ; 0 ; Give an enemy creature -2/-2. 
+146 ; Cursed Scimitar ; itemRed ; 4 ; -2 ; -2 ; ------ ; 0 ; -2 ; 0 ; Give an enemy creature -2/-2.\nDeal 2 damage to your opponent. 
+147 ; Quick Shot ; itemRed ; 2 ; 0 ; -1 ; ------ ; 0 ; 0 ; 1 ; Deal 1 damage to an enemy creature.\nDraw a card. 
+148 ; Helm Crusher ; itemRed ; 2 ; 0 ; -2 ; BCDGLW ; 0 ; 0 ; 0 ; Remove all abilities from an enemy creature,\nthen deal 2 damage to it. 
+149 ; Rootkin Ritual ; itemRed ; 3 ; 0 ; 0 ; BCDGLW ; 0 ; 0 ; 1 ; Remove all abilities from an enemy creature.\nDraw a card. 
+150 ; Throwing Axe ; itemRed ; 2 ; 0 ; -3 ; ------ ; 0 ; 0 ; 0 ; Deal 3 damage to an enemy creature. 
+151 ; Decimate ; itemRed ; 5 ; 0 ; -99 ; BCDGLW ; 0 ; 0 ; 0 ; Remove all abilities from an enemy creature,\nthen deal 99 damage to it. 
+152 ; Mighty Throwing Axe ; itemRed ; 7 ; 0 ; -7 ; ------ ; 0 ; 0 ; 1 ; Deal 7 damage to an enemy creature.\nDraw a card. 
+153 ; Healing Potion ; itemBlue ; 2 ; 0 ; 0 ; ------ ; 5 ; 0 ; 0 ; Gain 5 health. 
+154 ; Poison ; itemBlue ; 2 ; 0 ; 0 ; ------ ; 0 ; -2 ; 1 ; Deal 2 damage to your opponent.\nDraw a card.
+155 ; Scroll of Firebolt ; itemBlue ; 3 ; 0 ; -3 ; ------ ; 0 ; -1 ; 0 ; Deal 3 damage.\nDeal 1 damage to your opponent 
+156 ; Major Life Steal Potion ; itemBlue ; 3 ; 0 ; 0 ; ------ ; 3 ; -3 ; 0 ; Deal 3 damage to your opponent and gain 3 health. 
+157 ; Life Sap Drop ; itemBlue ; 3 ; 0 ; -1 ; ------ ; 1 ; 0 ; 1 ; Deal 1 damage, gain 1 health, and draw a card. 
+158 ; Tome of Thunder ; itemBlue ; 3 ; 0 ; -4 ; ------ ; 0 ; 0 ; 0 ; Deal 4 damage. 
+159 ; Vial of Soul Drain ; itemBlue ; 4 ; 0 ; -3 ; ------ ; 3 ; 0 ; 0 ; Deal 3 damage and gain 3 health. 
+160 ; Minor Life Steal Potion ; itemBlue ; 2 ; 0 ; 0 ; ------ ; 2 ; -2 ; 0 ; Deal 2 damage to your opponent and gain 2 health. 
