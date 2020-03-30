@@ -3,7 +3,7 @@
 ## Bot programming
 There are several files of the agent we created:<br>
 * Card_list
-  * This text file contains all card information of newest version of LOCM, which is referenced from [external resources of LOCM](https://jakubkowalski.tech/Projects/LOCM/).
+  * This text file contains all card information of newest version, which is referenced from [external resources of LOCM](https://jakubkowalski.tech/Projects/LOCM/).
 * Card_items
 * Card_creatures
 * Card_value_creatures
