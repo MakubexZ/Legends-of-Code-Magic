@@ -3,11 +3,13 @@
 ## Bot programming
 There are several files of the agent we created:<br>
 * Card_list
-  * This text file contains all card information of newest version, which is referenced from [external resources of LOCM](https://jakubkowalski.tech/Projects/LOCM/).
+  * This text file contains all cards information of newest version, which is referenced from [external resources of LOCM](https://jakubkowalski.tech/Projects/LOCM/).
 * Card_items
+  * This text file contains item cards information.
 * Card_creatures
-* Card_value_creatures
+  * This text file contains creature cards information.
 * Card_value_items
+* Card_value_creatures
 * Simple_Agent_based_on_cardvalue
 * Aggro_Agent_based_on_cardvalue
 * Aggro_Agent_based_on_cardvalue_modified
