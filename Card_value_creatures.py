@@ -8,10 +8,16 @@ line = d.readline()
 value_list = {}
 cost = []
 value_cost = np.zeros(13)
+
+# Analyze each line of one creature
+# Calculate value of each creature based on empirical formula
 while line:
     creature = line.split(";")
+
+    # Calculate basic strength of this creature by sum its ATTACK and HEALTH POINT
     strength = int(creature[4]) + int(creature[5])
-    
+
+    # Calculate strength of special abilities if its has one
     if 'B' in creature[6]:
         strength += int(creature[4])
     elif 'C' in creature[6]:
@@ -32,11 +38,15 @@ while line:
     if int(creature[9]) != 0:
         strength += int(creature[9])*2
 
+    # For Aggro algorithm we prefer high ATTACK low COST creature
     if int(creature[5]) - int(creature[4]) > 2:
         strength -= 3
     if int(creature[4]) - int(creature[3]) > 2:
         strength += 4
 
+    # Calculate value via dividing strength by 2*cost+1
+    # 'COST' is the consumption of using this card
+    # If the COST is zero we divide strength by 2 because result would be too high if by 1
     if int(creature[3]) != 0:
         value = strength/(int(creature[3])*2 + 1)
     else:
@@ -45,7 +55,7 @@ while line:
     value_list[iden] = value
     cost.append(int(creature[3]))
     
-
+    # Record cumulative value of different COST
     if int(creature[3]) == 0:
         value_cost[0] += value
     elif int(creature[3]) == 1:
@@ -68,16 +78,13 @@ while line:
         value_cost[9] += value
     elif int(creature[3]) == 12:
         value_cost[12] += value
-    # print(value_list)
-    # break
-    line = d.readline()
 
-# cost.sort()
-# print(cost)
-# print(Counter(cost))
+# Calculate the average value of different COST to help us build more reasonable deck
 cards_num = dict(Counter(cost))
 for key, value in cards_num.items():
     value_cost[key] /= value
+
+line = d.readline()
 print(value_cost)
 print(value_list)
 
